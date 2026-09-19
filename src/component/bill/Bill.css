@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bilsil{
+    width: 100%;
+    /* margin:7% auto; */
+}
+.colw{
+    color: blue;
+}
+.bill-in{
+    margin: 5% auto;
+    width: 96%;
+}
+.moz{
+    margin: 3% auto;
+}
+.moz p{
+    text-align: start;
+    color: blue;
+    font-size: 26px;
+    font-weight: 500;
+}
+.moz span{
+    color: #000 !important;
+    font-size: 24px;
+}
+.mow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    direction: rtl;
+    margin: 5% auto;
+    width: 100%;
+}
+
+.mow button{
+    margin: 0 12px;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+.mow h2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    color: red;
+}
+.mow h2 p{
+    color: rgb(12, 12, 14);
+    font-weight: 500;
+    font-size: 30px;
+}
+.hol{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  direction: ltr;
+  margin: 14px auto;
+}
+.coc{
+    min-width: 50% ;
+ 
+}
+.cc{
+    position: absolute;
+    top: 20%;
+    right: 40%;
+}
+.hol{
+    width: 100%;
+    margin: auto;
+}
+.coc input{
+    padding: 10px 12px;
+    border-radius: 12px;
+    width: 100% ;
+    margin:5% auto;
+    font-size: 24px;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid black !important;
+       position: relative;
+}
+ input:focus{
+  border: 4px solid black !important ;
+ }
+
+.hol h2{
+    width: 100% !important;
+    color: blue;
+    font-size: 30px;
+}
+.mog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+@media (min-width:250px) and (max-width:500px) {
+    .hol{
+        flex-direction: column;
+        direction: rtl;
+    }
+    .hol h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .mow{
+
+        flex-direction: column;
+        direction: rtl;
+    }
+    .mow h2 p{
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .mow button{
+      font-size: 24px;
+      font-weight: 600;
+      padding: 4px 22px;
+        }
+    .moz th{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .moz td{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .mog{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12%;
+    }
+   .bill-in{
+    margin: 12% auto;
+   }
+}

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+.sals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    padding: 20px 5px;
+    gap: 10px;
+    padding: 13px 12px;
+     margin: 5% auto;
+}
+.sals h2{
+    /* text-align: end; */
+    margin-left: auto;
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.sal-s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.sal-s .joy{
+   width: 20%;
+   height: 50vh;
+   background-color: whitesmoke;
+   margin: 12px 10px;
+   
+}
+.joy{
+    border: 2px solid #f7e1e1;
+    border-radius: 10px;
+    padding: 15px 2px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+.joy:hover{
+    transform: translateY(-10px);
+    background-color: aliceblue;
+}
+ 
+.i-1{
+    font-size: 70px;
+    font-weight: bold;
+    margin: 35px 0;
+    color: rgb(101, 145, 202);
+    
+
+}
+.i-2{
+     font-size: 70px;
+    font-weight: bold;
+    color: rgb(230, 155, 17);
+    margin: 35px 0;
+}
+.i-3{
+     font-size: 70px;
+    font-weight: bold;
+    color: rgb(99, 99, 100);
+    margin: 35px 0;
+}
+.i-4{
+     font-size: 70px;
+    font-weight: bold;
+    color: #949393;
+    margin: 35px 0;
+}
+.i-5{
+     font-size: 70px;
+    font-weight: bold;
+    color:chocolate;
+    margin: 35px 0; 
+}
+.i-6{
+  font-size: 70px;
+    font-weight: bold;
+    color: rgb(101, 145, 202);
+    margin: 35px 0;
+}
+.i-7{
+     font-size: 90px;
+    font-weight: bold;
+    color:rgb(153, 125, 65);
+    margin: 35px 0;
+}
+.i-8{
+     font-size: 70px;
+    font-weight: bold;
+    color:green ;
+    margin: 35px 0;
+}
+.joy h3{
+    font-size: 28px;
+    font-weight: 900;
+    margin: 26px 0;
+    color: #000;
+}
+.joy p{
+    font-size: 20px;
+    color: #000;;
+    font-weight: 600;
+}
+.j-1{
+      font-size: 70px;
+    font-weight: bold;
+    margin: 25px 0;
+    color: green;
+}
+.t-1{
+       font-size: 70px;
+    font-weight: bold;
+    margin: 25px 0;
+    color: darkmagenta;
+}
+.lk{
+    text-decoration: none;
+    background-color: white;
+    border: 3px solid blue;
+
+    border-radius: 10px;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 8px 12px;
+    color: rgb(19, 8, 167);
+}
+@media (min-width:250px) and (max-width:500px) {
+ .sal-s .joy{
+    width: 80%;
+    height: 100%;
+    margin: 13px auto;
+ }  
+ .sals{
+    margin: 10% auto;
+
+ } 
+}

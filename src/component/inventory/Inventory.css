@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.invent{
+    width: 100%;
+    margin:3% auto;
+    padding: 20px 10px;
+}
+.invent h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+
+}
+.p2{
+   font-size: 22px;
+   color: #000;
+   font-weight: 500;
+}
+.inv-fi{
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+.inv-ti{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 10px;
+    gap: 5px;
+    
+
+}
+.inv-1,.inv-2,.inv-3,.inv-4,.inv-5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    width: 25%;
+    border: 2px solid #ddd;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+.inv-1 p,.inv-2 p,.inv-3 p,.inv-4 p ,.inv-5 p{
+    color: #000;
+    font-size: 22px;
+}
+.inv-1 span ,.inv-2 span,.inv-3 span ,.inv-4 span ,.inv-5 span{
+    color: #000;
+    font-size: 20px;
+}
+.inv-1 h2{
+    color: red;
+    
+}
+.inv-2 h3{
+    color: green;
+    font-size: 30px;
+
+}
+.inv-3 h4{
+    color: blue;
+    font-size: 30px;
+}
+.inv-4 h4{
+    color: blue;
+    font-size: 30px;
+}
+.inv-mos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2% 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.inv-mos h2{
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    padding: 12px 18px;
+    font-size: 22px;
+}
+.inv-sc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    direction: rtl;
+    margin: 20px 5px;
+    margin-top: 2%;
+}
+.inv-sc input{
+    width: 60%;
+    border-radius: 12px;
+    padding: 10px 12px;
+}
+.inv-sc p{
+    font-size: 25px ;
+    color: #000;
+    font-weight: 700;
+}
+table{
+    width: 100%;
+   margin: auto;
+}
+.ri-fi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    direction: ltr;
+}
+.inv-rit{
+    width: 30%;
+}
+.inv-rit h2{
+   color: blue;
+   font-size: 28px;
+
+}
+.po{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 12px;
+    margin-top: 5%;
+    
+}
+.inv-pas{
+    border: 3px solid #ddd;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    margin: 12px 0;
+    padding: 15px 5px;
+
+}
+.inv-pas{
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.pq{
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-around;
+    flex-direction: row;
+    direction: ltr;
+    margin-top: 20px;
+   
+} 
+.pq p{
+    background-color: green;
+    color: white;
+    border-radius: 13px;
+    padding: 5px 12px;
+}
+.a-1{
+   color: red;
+   font-size: 36px;
+}
+.a-2{
+    color: green;
+    font-size: 36px;
+}
+.a-3{
+    color: darkgoldenrod;
+    font-size: 36px;
+}
+.a-4{
+    font-size: 36px;
+}
+.rok{
+    position: relative;
+    width: 70%;
+}
+.rok input{
+  padding: 13px 5%;
+  text-align: start;
+  width: 100%;
+  border: none !important;
+  outline: none !important;
+  border: 1px solid black !important;
+
+}
+.rok input:focus{
+    border: 4px solid black !important;
+}
+.co{
+    position: absolute;
+    top: 38%;
+    right: 2%;
+    
+}
+.inv-tb{
+    width: 100%;
+    margin: auto;
+}
+@media (min-width:250px) and (max-width:500px) {
+    .ri-fi{
+        flex-direction: column;
+    }
+    .invent h1{
+        font-size: 25px;
+    }
+    .invent p{
+        font-size: 20px;
+    }
+    .inv-ti{
+        flex-direction: column;
+    }
+    .inv-1,.inv-2,.inv-3,.inv-4,.inv-5{
+        flex-direction: row;
+        width: 100%;
+    }
+    .inv-mos{
+        font-size: 10px;
+        font-weight: 200;
+        
+    }
+    .inv-mos h2{
+        width: 100%;
+        font-size: 15px;
+    }
+    .inv-sc{
+        direction: ltr;
+        width: 100%;
+        padding: 0;
+        margin: 10px auto;
+        gap: 0;
+
+    }
+    .inv-sc p{
+        width: 30%;
+    }
+    .inv-sc .rok{
+        width:80% ;
+    }
+    .rok input{
+        padding: 12px 12%;
+    }
+    .co{
+        right: 3%;
+    }
+    .inv-pas{
+        width: 100% !important;
+        margin:14px auto;
+    }
+    .inv-rit{
+    width: 90%;
+    margin: auto;
+}
+.inv-tb{
+    width: 100%;
+    margin: auto;
+}
+}

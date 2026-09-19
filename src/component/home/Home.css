@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    width: 100%;
+   height: 100vh;
+    margin:  auto;
+
+}
+.homes{
+    width: 100%;
+    height: 100vh;
+    /* margin: auto ; */
+    
+}
+/* .fw-bold{
+   direction: rtl;
+} */
+
+.cop{
+    
+    width: 100%;
+    margin: 0;
+    padding: 18px 0;
+    height: 100vh;
+}
+.cv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.nasr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+
+}

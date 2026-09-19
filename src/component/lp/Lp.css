@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lps{
+    margin:  auto;
+    background-color:rgb(126, 123, 123);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+}
+.lps-fo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15%;
+    height: 60vh;
+    width: 100%;
+}
+.lps-fo input{
+    width: 100%;
+    padding: 20px 15px;
+    border-radius: 15px;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border:  2px solid rgb(24, 23, 23) !important;
+    font-size: 20px;
+
+}
+.lps-fo input:focus{
+    border: 4px solid #f33e07 !important;
+}
+.lps-fo button{
+    margin: 2% auto;
+    width: 100%;
+    padding: 15px 12px;
+    font-size: 20px;
+}
+.bt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  width: 70%;
+  /* margin-top: 8% ; */
+  position: relative;
+}
+.bt p{
+    font-size: 35px;
+    position: absolute;
+    left: 2%;
+}
+.mozq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    gap: 0;
+    margin: 5% auto;
+}
+
+

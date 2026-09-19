@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cat{
+    width: 90%;
+    margin: 5% auto;
+
+}
+.cat-ti{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+}
+.cat-li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: row;
+}
+.nk{
+    text-decoration: none;
+    font-size: 22px;
+}
+@media (min-width:250px) and (max-width:500px) {
+    .cat{
+        margin: 12% auto;
+    }
+    
+}

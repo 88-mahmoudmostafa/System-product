@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cant{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 5%;
+    direction: rtl;
+    padding: 16px 5px;
+    position: fixed;
+    z-index: 9999;
+
+    margin-top: 2%;
+}
+.nav-title{
+    color:transparent !important;
+    color: white !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+}
+
+.mas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 2%;
+    width: 100%;
+}
+.mas .lin {
+    width: fit-content;
+    color:transparent !important;
+    color: white !important;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    transition: 0.7s ease !important;
+    text-decoration: none;
+}
+.mas .lin:hover{
+    color: #000 !important;
+    cursor: pointer;
+}
+#dropdown-basic{
+    background-color: transparent !important;
+    color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow:none !important;
+    background-color: aliceblue !important;
+    color:#000  !important;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.menu{
+   width: 100%; 
+   flex-direction: row;
+   padding: 0;
+
+}
+.mrn-item{
+    text-align: start;
+    display: flex !important;
+    justify-content: flex-start !important;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 5%;
+    width: 100% !important;
+}
+.mrn-item h6{
+    font-size: 20px;
+    /* width: 100%; */
+}
+.mrn-item p{
+    font-size: 16px;
+    /* justify-content:flex-end; */
+}
+.naving{
+    color:black ;
+    border-bottom: 4px solid rgb(245, 48, 13);
+}
+@media (min-width:250px) and (max-width:700px) {
+     .mas .lin{
+        /* color: red; */
+        height: 100%;
+        margin-left: auto;
+
+     }
+     
+    
+     .offcanvas-body{
+        overflow-y: auto !important;
+     }
+     .mas{
+        display: flex;
+        justify-content:end;
+        flex-direction: column;
+        background-color: #000;
+        height: 100vh;
+        overflow-y:auto !important;
+        padding: 2px 35px ;
+        gap: 5px;
+        padding-top: 100px;
+        
+     }
+     #dropdown-basic{
+        margin-left: auto;
+        text-align: start;
+     }
+}

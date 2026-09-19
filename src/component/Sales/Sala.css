@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hom-com{
+    margin: 5% auto;
+    width: 100%;
+    
+}
+/* tittle-first-home bill */
+.first{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    direction: rtl;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 90%;
+    margin: auto;
+    padding: 15px 15px;
+}
+.first h3{
+    color: blue;
+    font-size: 28px;
+    font-weight:bold;
+    /* text-align: start; */
+}
+
+
+.last{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5%;
+    width: 50%;
+}
+
+.last p{
+    font-size: 20px;
+    font-weight: 500;
+    /* padding: 10px ; */
+}
+.last .dicon{
+   font-size: 30px;
+   color: #000;
+   font-weight: 600;
+}
+.last .ds{
+    color: blue;
+    font-size: 30px;
+    font-weight: 600;
+}
+.last .dpls{
+    font-size: 35px;
+    color: green;
+    font-weight: bold;
+}
+.last .dx{
+    color: red;
+    font-size: 30px;
+    font-weight: 800;
+}
+.dp{
+    font-size: 32px;
+    color: rgb(119, 143, 76);
+}
+/* clinet-bill */
+.cli-bil{
+      display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 25px auto;
+    width: 90%;
+    gap: 3%;
+    direction: ltr;
+    
+}
+
+.clinet,.Bill,.product,.nom,.ks{
+    border: 3px solid #ddd;
+    position: relative;
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 12px;
+    /* width: fit-content; */
+}
+.clinet p,.Bill p,.product h4{
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    background-color: white;
+    color: blue;
+    font-size: 25px;
+    font-weight: 700;
+}
+.cl,.ll{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: row;
+    width: 100%;
+    gap: 4%;
+    padding: 15px 5px;
+  
+}
+
+.cl h2,.ll h2{
+    font-size: 25px;
+    width: fit-content;
+}
+
+.cl input ,.ll input{
+    width: 80%;
+    padding: 10px 10px;
+    border-radius:10px ;
+    text-align: start;
+    color: #000;
+    font-size: 25px;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border:  2px solid #ddd !important;
+
+}
+.cl input:focus,.ll input:focus{
+      border: 4px solid #eb370a !important;
+}
+.cl{
+    direction: ltr;
+}
+/* product Bill */
+.product,.ks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    flex-direction: row;
+    direction: rtl;
+}
+
+.pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 12px 12px;
+}
+.in{
+   
+   width: 100%;
+    position: relative;
+   
+}
+ .in label{
+    position: absolute;
+    top: 27%;
+    right: 30%;
+}
+.in .open:focus + label,   .in .open:not(:placeholder-shown)+ label{
+    position: absolute;
+    top:-32%;
+    background-color: white;
+  
+    
+    
+ }
+
+.in input{
+    width: 60%;
+    padding: 10px 5px;
+    border-radius: 12px;
+    background-color:white;
+    color: #000;
+    font-size: 24px;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+}
+.in input:focus{
+    border: 4px solid #eb370a !important;
+}
+
+.in .sn{
+width: 100%;
+font-size: 25px;
+padding-right:40px ;
+}
+
+.pro button{
+    /* width: 80%; */
+    padding: 10px 12px;
+    color: white;
+    background-color: #145ce2;
+    border-radius: 12px;
+    transition:0.7s ease;
+    font-size: 22px;
+}
+.pro button:hover{
+    background-color:rgb(8, 49, 235);
+    color: white;
+}
+
+.ks{
+    gap: 5%;
+    margin-top: 20px;
+    padding: 15px  18px;
+}
+.text{
+    width: 100%;
+    height: 100%;
+}
+.text textarea{
+    /* padding: 20px 20px; */
+    width: 90%;
+    height: 20vh;
+    border-radius: 12px;
+}
+.text p{
+    text-align: start;
+    width: 100%;
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+}
+.ll{
+    justify-content: space-around;
+}
+.ll input{
+    width: 60%;
+    gap: 7px;
+    text-align: center;
+}
+.ll h3{
+    color: red;
+}
+.molk{
+
+    overflow: auto;
+    width: 100%;
+}
+.mo{
+    position: relative;
+    /* display: inline-block; */
+}
+.clier{
+      position: absolute;
+    top: 30%;
+    right: 20%;
+    width: 60%;
+    background-color: #ddd;
+    z-index: 9999;
+    max-height: 30vh;
+    overflow-y: auto;
+}
+.mars{
+    position: relative;
+    width: 100%;
+    padding: 12px;
+    background-color: #ddd;
+    color: #000;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.box{
+    margin: 12px auto;
+    position: relative;
+    width: 60%;
+
+}
+.box .mold{
+    width: 60%;
+    border-radius: 10px;
+    padding: 5px 3%;
+    text-align: start;
+    font-size: 22px;
+}
+.scr{
+    position: absolute;
+    top: 30%;
+    right: 21%;
+    font-size: 22px;
+}
+.kam{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 3% auto;
+}
+.mor{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.mor h5{
+    font-size: 28px;
+    color: #145ce2;
+    font-weight: bold;
+}
+.mor p{
+    font-size: 22px;
+    color: #000;
+}
+.dd-sal p{
+  cursor: pointer;
+}
+.mnp {
+    display: block;
+    max-height: 40vh;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.mnp tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+.mot{
+    text-align: start;
+    width: 80%;
+    margin: 3%auto;
+}
+
+
+ 
+@media print {
+
+    @page {
+        size: A4 ;
+        margin: 1mm;
+    }
+
+    
+   
+
+    body * {
+        visibility: hidden ;
+    }
+
+    .amer,
+    .amer * {
+        visibility: visible;
+    }
+
+    .amer {
+        position: absolute ;
+        top: 0 ;
+        left: 0 ;
+        width: 100%;
+        /* box-sizing: border-box ; */
+        direction: rtl ;
+        /* text-align: right ; */
+        font-family: Arial, sans-serif ;
+        font-size: 20px ;
+    }
+
+    .amer-table {
+        width: 100% ;
+        margin-top: 15px;
+        border-collapse: collapse ;
+    }
+
+    .amer-table th,
+    .amer-table td {
+        padding:6px;
+        font-size: 15px ;
+        text-align: center;
+    }
+    .no-print{
+        display: none !important;
+    }
+
+    .ptn,
+    .prrr,
+    .work,button,
+    .gg {
+        display: none !important;
+    }
+}
+.ds{
+    cursor: pointer;
+}
+
+@media (min-width:250px) and (max-width:500px) {
+    .cli-bil{
+        flex-direction: column;
+        gap: 15px;
+    }
+    table{
+        width: 100%;
+    }
+    .pro{
+        flex-direction: column;
+        margin: 15px 0;
+    }
+    .pro input{
+        width: 100%;
+        margin: 25px auto;
+    }
+     .in label{
+    position: absolute;
+    top: 27%;
+    right: 30%;
+}
+.in .open:focus + label,   .in .open:not(:placeholder-shown)+ label{
+    position: absolute;
+    top:5%;
+    background-color: white;
+ }
+ .product{
+    margin: 15px auto;
+ }
+ .kam{
+    flex-direction: column;
+ }
+ .ks{
+    flex-direction: column;
+    gap: 20px;
+ }
+ table td{
+    font-size: 15px;
+    padding: 4px;
+ }
+.work{
+    gap: 2px;
+}
+ .ptn-work{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 4px 10px;
+ }
+
+    
+}

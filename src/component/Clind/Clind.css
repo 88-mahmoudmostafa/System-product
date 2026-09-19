@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clind{
+    width: 90%;
+    margin:4% auto;
+}
+.clin{
+
+}
+.cod{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    text-align: start;
+    gap: 12px;
+
+}
+.cod h2{
+    color: blue;
+
+}
+.cod .nk{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.lkg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.ak{
+    color: #000;
+}
+.ahmed{
+    margin:2% auto;
+}
+.not{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #ddd !important ;
+    border-radius: 12px !important;
+}
+.not:focus{
+    border: 4px solid #f15811 !important;
+}
+.bsr{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    gap: 5px;
+}
+.btnd,.baker{
+    width: 100%;
+    font-size: 22px;
+    padding: 8px 10px;
+    transition: 0.7s ease;
+}
+.baker{
+    background-color: transparent !important;
+    background-color: white !important;
+    color: #000 !important;
+    border: 3px solid #ddd !important;
+    border-radius: 12px;
+    transition: 0.7s ease;
+}
+.baker:hover{
+    background-color: #ddd !important;
+}
+.btnd:hover{
+    background-color: rgb(91, 91, 177);
+}
+.sc-clin{
+    width: 40%;
+    /* margin: auto; */
+    position: relative;
+
+}
+.sc-clin input{
+    width: 100%;
+    padding: 10px 6%;
+    text-align: start;
+    border-radius: 12px;
+    font-size: 22px;
+    border: none !important;
+    outline: none !important;
+    border: 1px solid black !important;
+}
+.sc-clin input:focus{
+    border: 4px solid black !important;
+}
+.clin-sc{
+    position: absolute;
+    top: 35%;
+    right: 2%;
+    font-size: 22px;
+}
+.us{
+    margin:0 15px;
+}
+.paks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 2% auto;
+}
+.tor{
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 25px;
+    font-weight: 700;
+    color: blue;
+}
+.work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+}
+.ptn-work{
+    font-size: 17px;
+}
+.moj{
+    display: block;
+    width: 100%;
+    height: 50vh;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.moj tr{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+thead{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+thead tr{
+    margin-top: 20px;
+}
+
+@media (min-width:250px) and (max-width:500px) {
+    .clind{
+        margin: 10% auto;
+        width: 95%;
+    }
+  .mod{
+    flex-direction: column;
+    gap: 12px;
+    margin: 5% auto;
+  }
+  .paks{
+    flex-direction: column;
+    width: 100%;
+    margin:14px auto;
+    gap: 12px;
+  }
+ .paks .tor{
+   font-size: 19px;
+   font-weight: 400;
+   transform: translateX(75%);
+   color: blue;
+  }
+  
+  .sc-clin{
+    width: 100%;
+    margin: auto;
+  }
+  .sc-clin input{
+    padding:6px 10%;
+    font-size: 15px;
+  }
+    .clcl th{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0;
+    
+  }
+  .clcl td{
+    font-size: 10px;
+  }
+  .work{
+    gap: 4px;
+  }
+  .ptn-work{
+    font-size: 10px;
+  }
+  .btnd,.baker{
+    font-size: 10px;
+    font-weight: 400;
+    padding: 5px 8px;
+  }
+
+}
